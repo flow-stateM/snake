@@ -1,0 +1,50 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #89ecb6;
+}
+.container {
+  width: 800px;
+  border: 4px solid #000;
+  margin: 40px auto 0;
+}
+.container .map {
+  width: 500px;
+  margin: 20px auto;
+}
+.container .map div {
+  height: 25px;
+}
+.container .map div span {
+  float: left;
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border: 0.5px solid #4ec4d4;
+}
+.container .map div span.snake {
+  background-color: black;
+}
+.container .map div span.food {
+  background-color: red;
+}
+.container .map div span.head {
+  border-radius: 50%;
+  background-color: #d0ff00;
+}
+.container .footer {
+  border-top: 2px solid #000;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .footer .startBtn {
+  cursor: pointer;
+}
+.container .footer .startBtn:hover {
+  color: red;
+}
